@@ -15,6 +15,16 @@ permission:
     "git show*": allow
   webfetch: deny
 ---
+## MAIN AGENT ROUTING KEYWORDS
+
+When the main agent detects these keywords in a task, it should invoke this subagent:
+- "review", "security", "performance", "architecture"
+- "database schema", "refactor structure", "technical debt"
+- "should we use", "design pattern", "API redesign"
+- "analyze", "assess", "evaluate" (when applied to code structure)
+- "vulnerability", "scalability", "optimization"
+- "code organization", "module structure", "dependency analysis"
+
 ## PURPOSE
 This subagent performs **architecture and code reviews only**.
 It analyzes proposed or completed code changes and provides:
