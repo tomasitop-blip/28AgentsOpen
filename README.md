@@ -173,10 +173,3 @@ If you build improvements or variants, consider sharing them back.
 
 ⸻
 
-If you want, next I can:
-	•	Write a short “Quick Start” README
-	•	Add a GIF-style usage walkthrough
-	•	Help you package sibling agents (architect-deep, architect-docs)
-	•	Or help you structure the repo for multiple agents
-
-Just say the word.
