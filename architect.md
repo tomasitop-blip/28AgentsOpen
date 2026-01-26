@@ -5,7 +5,7 @@ mode: subagent
 # Execution control
 maxSteps: 5
 temperature: 0.1
-model: openrouter/x-ai/grok-code-fast-1
+model: openrouter/deepseek-ai/deepseek-v3.2
 permission:
   edit: deny
   bash:
@@ -15,16 +15,6 @@ permission:
     "git show*": allow
   webfetch: deny
 ---
-## MAIN AGENT ROUTING KEYWORDS
-
-When the main agent detects these keywords in a task, it should invoke this subagent:
-- "review", "security", "performance", "architecture"
-- "database schema", "refactor structure", "technical debt"
-- "should we use", "design pattern", "API redesign"
-- "analyze", "assess", "evaluate" (when applied to code structure)
-- "vulnerability", "scalability", "optimization"
-- "code organization", "module structure", "dependency analysis"
-
 ## PURPOSE
 This subagent performs **architecture and code reviews only**.
 It analyzes proposed or completed code changes and provides:
