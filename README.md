@@ -122,9 +122,6 @@ recommended_action: proceed
 ## Passed
 - Documentation structure is clear and consistent
 
-## Recommendations
-- suggestion: Add a Security policy section
-  priority: medium
 
 Notes:
 	•	Sections are omitted if empty
